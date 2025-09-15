@@ -1,23 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/14 22:10:46 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 07:30:46 by loziel-d         ###   ########.fr       */
+/*   Created: 2025/09/15 07:45:01 by loziel-d          #+#    #+#             */
+/*   Updated: 2025/09/15 07:49:51 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcpy(char *dest, char *src)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	char	*original_dest;
+	char			*original_dest;
+	unsigned int	i;
 
 	original_dest = dest;
-	while (*src)
-		*dest++ = *src++;
-	*dest = '\0';
+	i = 0;
+	while (i < n && *src)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+		i++;
+	}
+	while (i < n)
+	{
+		*dest = '\0';
+		dest++;
+		i++;
+	}
 	return (original_dest);
 }
 
@@ -26,12 +38,13 @@ char	*ft_strcpy(char *dest, char *src)
 
 int	main(void)
 {
-	char	origem[] = "42 Rio";
-	char	destino[20];
+	char	origem[] = "Hello";
+	char	destino[10];
 
-	ft_strcpy(destino, origem);
+	ft_strncpy(destino, origem, 3);
+	destino[3] = '\0';
 	printf("Original: %s\n", origem);
-	printf("Cópia: %s\n", destino);
+	printf("Copiado:  %s\n", destino);
 	return (0);
 }
 */
