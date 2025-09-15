@@ -35,8 +35,8 @@ int	main(void)
 	printf("'%s' -> %d\n", test1, ft_str_is_lowercase(test1));
 	printf("'%s' -> %d\n", test2, ft_str_is_lowercase(test2));
 	printf("'%s' -> %d\n", test3, ft_str_is_lowercase(test3));
-	printf("'%s' -> %d\n", teste4, ft_str_is_lowercase(teste4));
-	printf("'%s' -> %d\n", teste5, ft_str_is_lowercase(teste5));
+	printf("'%s' -> %d\n", test4, ft_str_is_lowercase(test4));
+	printf("'%s' -> %d\n", test5, ft_str_is_lowercase(test5));
 	return (0);
 }
 */
