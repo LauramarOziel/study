@@ -40,7 +40,7 @@ int	main(void)
 	char	dest3[1];
 	unsigned int	result;
 
-	printf("Source string: '%s' (lenght: %d)\n\n", src, 11);
+	printf("Source string: '%s' (length: %d)\n\n", src, 11);
 	result = ft_strlcpy(dest1, src, 20);
 	printf("Large buffer (size=20):\n");
 	printf("Copied: '%s'\n", dest1);
