@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/13 18:34:41 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/13 18:47:55 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/14 20:22:52 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,6 @@ int	main(void)
 	ft_swap(&a, &b);
 	printf("a after: %d\n", a);
 	printf("b after: %d\n", b);
+	return (0);
 }
 */
