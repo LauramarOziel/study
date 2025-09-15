@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 22:10:46 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 07:30:46 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 11:06:18 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ char	*ft_strcpy(char *dest, char *src)
 
 int	main(void)
 {
-	char	origem[] = "42 Rio";
-	char	destino[20];
+	char	source[] = "42 Rio";
+	char	dest[20];
 
-	ft_strcpy(destino, origem);
-	printf("Original: %s\n", origem);
-	printf("Cópia: %s\n", destino);
+	ft_strcpy(dest, source);
+	printf("Source: %s\n", source);
+	printf("Copied: %s\n", dest);
 	return (0);
 }
 */

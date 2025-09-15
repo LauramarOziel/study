@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 08:38:10 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 08:58:45 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 11:17:08 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,26 +47,26 @@ char	*ft_strcapitalize(char *str)
 
 int	main(void)
 {
-	char	teste1[] = "hi, how are you? 42words forty-two; fifty+and+one";
-	char	teste2[] = "HELLO WORLD 123abc";
-	char	teste3[] = "alReAdY mIxEd CaSe";
-	char	teste4[] = "";
+	char	test1[] = "hi, how are you? 42words forty-two; fifty+and+one";
+	char	test2[] = "HELLO WORLD 123abc";
+	char	test3[] = "alReAdY mIxEd CaSe";
+	char	test4[] = "";
 
-	printf("Antes:  '%s'\n", teste1);
-	ft_strcapitalize(teste1);
-	printf("Depois: '%s'\n\n", teste1);
+	printf("Before:  '%s'\n", test1);
+	ft_strcapitalize(test1);
+	printf("After: '%s'\n\n", test1);
 
-	printf("Antes:  '%s'\n", teste2);
-	ft_strcapitalize(teste2);
-	printf("Depois: '%s'\n\n", teste2);
+	printf("Before:  '%s'\n", test2);
+	ft_strcapitalize(test2);
+	printf("After: '%s'\n\n", test2);
 
-	printf("Antes:  '%s'\n", teste3);
-	ft_strcapitalize(teste3);
-	printf("Depois: '%s'\n\n", teste3);
+	printf("Before:  '%s'\n", test3);
+	ft_strcapitalize(test3);
+	printf("After: '%s'\n\n", test3);
 
-	printf("Antes:  '%s'\n", teste4);
-	ft_strcapitalize(teste4);
-	printf("Depois: '%s'\n", teste4);
+	printf("Before:  '%s'\n", test4);
+	ft_strcapitalize(test4);
+	printf("After: '%s'\n", test4);
 	return (0);
 }
 */

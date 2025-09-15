@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 08:28:54 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 08:32:18 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 11:15:10 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,26 +29,26 @@ char	*ft_strlowcase(char *str)
 
 int	main(void)
 {
-	char	teste1[] = "HELLO WORLD";
-	char	teste2[] = "Hello 42!";
-	char	teste3[] = "already low";
-	char	teste4[] = "";
+	char	test1[] = "HELLO WORLD";
+	char	test2[] = "Hello 42!";
+	char	test3[] = "already low";
+	char	test4[] = "";
 
-	printf("Antes:  '%s'\n", teste1);
-	ft_strlowcase(teste1);
-	printf("Depois: '%s'\n\n", teste1);
+	printf("Before:  '%s'\n", test1);
+	ft_strlowcase(test1);
+	printf("After: '%s'\n\n", test1);
 
-	printf("Antes:  '%s'\n", teste2);
-	ft_strlowcase(teste2);
-	printf("Depois: '%s'\n\n", teste2);
+	printf("Before:  '%s'\n", test2);
+	ft_strlowcase(test2);
+	printf("After: '%s'\n\n", test2);
 
-	printf("Antes:  '%s'\n", teste3);
-	ft_strlowcase(teste3);
-	printf("Depois: '%s'\n\n", teste3);
+	printf("Before:  '%s'\n", test3);
+	ft_strlowcase(test3);
+	printf("After: '%s'\n\n", test3);
 
-	printf("Antes:  '%s'\n", teste4);
-	ft_strlowcase(teste4);
-	printf("Depois: '%s'\n", teste4);
+	printf("Before:  '%s'\n", test4);
+	ft_strlowcase(test4);
+	printf("After: '%s'\n", test4);
 	return (0);
 }
 */

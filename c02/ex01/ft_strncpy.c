@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 07:45:01 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 07:49:51 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 11:02:18 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,13 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 
 int	main(void)
 {
-	char	origem[] = "Hello";
-	char	destino[10];
+	char	source[] = "Hello";
+	char	dest[10];
 
-	ft_strncpy(destino, origem, 3);
-	destino[3] = '\0';
-	printf("Original: %s\n", origem);
-	printf("Copiado:  %s\n", destino);
+	ft_strncpy(dest, source, 3);
+	dest[3] = '\0';
+	printf("Source: %s\n", source);
+	printf("Copied:  %s\n", dest);
 	return (0);
 }
 */

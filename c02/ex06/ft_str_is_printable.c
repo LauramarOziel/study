@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 08:18:11 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 08:22:27 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 11:10:53 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,17 +26,17 @@ int	ft_str_is_printable(char *str)
 
 int	main(void)
 {
-	char	*teste1 = "Hello 42!";
-	char	*teste2 = "Hello\t42";
-	char	*teste3 = "Hello\n";
-	char	*teste4 = "";
-	char	*teste5 = "~#$%^&*()";
+	char	*test1 = "Hello 42!";
+	char	*test2 = "Hello\t42";
+	char	*test3 = "Hello\n";
+	char	*test4 = "";
+	char	*test5 = "~#$%^&*()";
 
-	printf("'%s' -> %d\n", teste1, ft_str_is_printable(teste1));
-	printf("'Hello\\t42' -> %d\n", ft_str_is_printable(teste2));
-	printf("'Hello\\n' -> %d\n", ft_str_is_printable(teste3));
-	printf("'%s' -> %d\n", teste4, ft_str_is_printable(teste4));
-	printf("'%s' -> %d\n", teste5, ft_str_is_printable(teste5));
+	printf("'%s' -> %d\n", test1, ft_str_is_printable(test1));
+	printf("'Hello\\t42' -> %d\n", ft_str_is_printable(test2));
+	printf("'Hello\\n' -> %d\n", ft_str_is_printable(test3));
+	printf("'%s' -> %d\n", test4, ft_str_is_printable(test4));
+	printf("'%s' -> %d\n", test5, ft_str_is_printable(test5));
 	return (0);
 }
 */
