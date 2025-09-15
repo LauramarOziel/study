@@ -31,10 +31,10 @@ int	main(void)
 	char	*teste3 = "Hello World";
 	char	*teste4 = "";
 
-	printf("'%s' -> %d\n", teste1, ft_str_is_alpha(teste1));
-	printf("'%s' -> %d\n", teste2, ft_str_is_alpha(teste2));
-	printf("'%s' -> %d\n", teste3, ft_str_is_alpha(teste3));
-	printf("'%s' -> %d\n", teste4, ft_str_is_alpha(teste4));
+	printf("'%s' -> %d\n", test1, ft_str_is_alpha(test1));
+	printf("'%s' -> %d\n", test2, ft_str_is_alpha(test2));
+	printf("'%s' -> %d\n", test3, ft_str_is_alpha(test3));
+	printf("'%s' -> %d\n", test4, ft_str_is_alpha(test4));
 	return (0);
 }
 */
