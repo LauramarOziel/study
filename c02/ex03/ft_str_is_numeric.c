@@ -36,7 +36,7 @@ int	main(void)
 	printf("'%s' -> %d\n", test2, ft_str_is_numeric(test2));
 	printf("'%s' -> %d\n", test3, ft_str_is_numeric(test3));
 	printf("'%s' -> %d\n", test4, ft_str_is_numeric(test4));
-	printf("'%s' -> %d\n", test5, ft_str_is_numeric(tese5));
+	printf("'%s' -> %d\n", test5, ft_str_is_numeric(test5));
 	return (0);
 }
 */
