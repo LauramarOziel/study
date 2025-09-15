@@ -26,10 +26,10 @@ int	ft_str_is_alpha(char *str)
 
 int	main(void)
 {
-	char	*teste1 = "Hello";
-	char	*teste2 = "Hello42";
-	char	*teste3 = "Hello World";
-	char	*teste4 = "";
+	char	*test1 = "Hello";
+	char	*test2 = "Hello42";
+	char	*test3 = "Hello World";
+	char	*test4 = "";
 
 	printf("'%s' -> %d\n", test1, ft_str_is_alpha(test1));
 	printf("'%s' -> %d\n", test2, ft_str_is_alpha(test2));
