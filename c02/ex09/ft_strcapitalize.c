@@ -6,17 +6,9 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 08:38:10 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/15 11:17:08 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 23:39:28 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
-int	is_alphanumeric(char c)
-{
-	return ((c >= 'a' && c <= 'z')
-		|| (c >= 'A' && c <= 'Z')
-		|| (c >= '0' && c <= '9'));
-}
 
 char	*ft_strcapitalize(char *str)
 {
@@ -27,7 +19,8 @@ char	*ft_strcapitalize(char *str)
 	new_word = 1;
 	while (*str)
 	{
-		if (is_alphanumeric(*str))
+		if ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z')
+			|| (*str >= '0' && *str <= '9'))
 		{
 			if (new_word && *str >= 'a' && *str <= 'z')
 				*str = *str - 32;
@@ -41,7 +34,6 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (original_str);
 }
-
 /*
 #include <stdio.h>
 
