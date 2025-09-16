@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 20:25:56 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/14 21:24:11 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/15 22:37:05 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ int	main(void)
 	int	test1[] = {10, 20, 30};
 	int	test2[] = {100, 200};
 	int	test3[] = {42};
+	int	test4[] = {199, 196, 197, 194, 193, 918, 512, 876};
 
 	printf("Test 1 - Before: 10 20 30\n");
 	ft_rev_int_tab(test1, 3);
@@ -44,6 +45,12 @@ int	main(void)
 	printf("Test 3 - Before: 42\n");
 	ft_rev_int_tab(test3, 1);
 	printf("Test 3 - After: %d\n", test3[0]);
+
+	printf("Test 4 - Before: 199 196 197 194 193 918 512 876\n");
+	ft_rev_int_tab(test4, 8);
+	printf("Test 4 - After: %d %d %d %d %d %d %d %d\n",
+	test4[0], test4[1], test4[2], test4[3],
+	test4[4], test4[5], test4[6], test4[7]);
 	return (0);
 }
 */
