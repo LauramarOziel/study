@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:29:15 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/17 09:42:50 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/18 01:37:44 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ char	*ft_strcat(char *dest, char *src)
 	*dest = '\0';
 	return (original_dest);
 }
-
 /*
 #include <stdio.h>
 #include <string.h>

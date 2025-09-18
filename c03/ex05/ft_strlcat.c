@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:51:42 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/17 11:34:25 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/18 01:43:20 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	dest[dest_len + i] = '\0';
 	return (dest_len + src_len);
 }
-
 /*
 #include <stdio.h>
 #include <string.h>
@@ -95,7 +94,6 @@ int	main(void)
 	unsigned int result7 = ft_strlcat(dest7, src7, 0);
 	printf("After:  dest=\"%s\" (unchanged)\n", dest7);
 	printf("Return: %u (0 + src_len)\n", result7);
-
 	return (0);
 }
 */

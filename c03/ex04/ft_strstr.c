@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:45:52 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/17 11:27:13 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/18 01:42:04 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (0);
 }
-
 /*
 #include <stdio.h>
 #include <string.h>
@@ -76,7 +75,8 @@ int	main(void)
 		printf("Found at: \"%s\"\n", result3);
 	else
 		printf("Not found\n");
-	printf("Standard strstr: %s\n\n", strstr(haystack, needle3) ? "Found" : "Not found");
+	printf("Standard strstr: %s\n\n",
+	strstr(haystack, needle3) ? "Found" : "Not found");
 
 	printf("Test 4 - Empty search string:\n");
 	printf("String: \"%s\"\n", haystack);
@@ -117,7 +117,6 @@ int	main(void)
 	else
 		printf("Not found\n");
 	printf("Standard strstr: \"%s\"\n", strstr(haystack, needle7));
-
 	return (0);
 }
 */

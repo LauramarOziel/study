@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:35:54 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/17 09:58:36 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/18 01:40:18 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	*dest = '\0';
 	return (original_dest);
 }
-
 /*
 #include <stdio.h>
 #include <string.h>
@@ -88,7 +87,6 @@ int	main(void)
 	printf("ft_strncat:  \"%s\"\n", test_ft);
 	printf("strncat:     \"%s\"\n", test_std);
 	printf("Match: %s\n", (strcmp(test_ft, test_std) == 0) ? "YES" : "NO");
-
 	return (0);
 }
 */
