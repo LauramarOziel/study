@@ -6,9 +6,11 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 08:57:43 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/22 08:58:09 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/22 11:13:58 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putstr(char *str)
 {
@@ -18,9 +20,7 @@ void	ft_putstr(char *str)
 		str++;
 	}
 }
-
 /*
-#include <unistd.h>
 int	main(void)
 {
 	ft_putstr ("Hello Word!");

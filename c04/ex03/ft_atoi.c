@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 09:48:09 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/22 10:34:46 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/22 11:18:39 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ int	ft_atoi(char *str)
 	return (result * sign);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	printf("%d\n", ft_atoi("1234"));

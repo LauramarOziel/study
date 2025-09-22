@@ -6,9 +6,11 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 08:58:55 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/22 10:24:11 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/22 11:15:39 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putnbr(int nb)
 {
