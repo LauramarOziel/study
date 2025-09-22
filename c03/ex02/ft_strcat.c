@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:29:15 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/18 01:37:44 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/22 07:27:30 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,19 +60,6 @@ int	main(void)
 	printf("Before: dest=\"%s\", src=\"%s\"\n", dest4, src4);
 	ft_strcat(dest4, src4);
 	printf("After:  dest=\"%s\"\n\n", dest4);
-
-	printf("Test 5 - Multiple concatenations:\n");
-	char	multi[100] = "Start";
-	printf("Initial: \"%s\"\n", multi);
-	ft_strcat(multi, " -> ");
-	printf("Step 1:  \"%s\"\n", multi);
-	ft_strcat(multi, "Middle");
-	printf("Step 2:  \"%s\"\n", multi);
-	ft_strcat(multi, " -> ");
-	printf("Step 3:  \"%s\"\n", multi);
-	ft_strcat(multi, "End");
-	printf("Final:   \"%s\"\n", multi);
-
 	return (0);
 }
 */

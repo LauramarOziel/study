@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 23:35:54 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/18 01:40:18 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/22 07:40:05 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	main(void)
 	char	dest1[50] = "Hello ";
 	char	src1[] = "World!";
 	char	dest2[50] = "42 ";
-	char	src2[] = "School Rio";
+	char	src2[] = "School";
 	char	dest3[50] = "Start ";
 	char	src3[] = "Middle End";
 	char	dest4[50] = "Keep ";
@@ -70,23 +70,6 @@ int	main(void)
 	printf("Before: dest=\"%s\", src=\"%s\", nb=4\n", dest5, src5);
 	ft_strncat(dest5, src5, 4);
 	printf("After:  dest=\"%s\"\n\n", dest5);
-
-	printf("Test 6 - Partial word (nb=4):\n");
-	char	dest6[50] = "Programming in ";
-	char	src6[] = "C language";
-	printf("Before: dest=\"%s\", src=\"%s\", nb=1\n", dest6, src6);
-	ft_strncat(dest6, src6, 1);
-	printf("After:  dest=\"%s\"\n\n", dest6);
-
-	printf("Test 7 - Compare with standard strncat:\n");
-	char	test_ft[50] = "Test ";
-	char	test_std[50] = "Test ";
-	char	source[] = "comparison";
-	ft_strncat(test_ft, source, 4);
-	strncat(test_std, source, 4);
-	printf("ft_strncat:  \"%s\"\n", test_ft);
-	printf("strncat:     \"%s\"\n", test_std);
-	printf("Match: %s\n", (strcmp(test_ft, test_std) == 0) ? "YES" : "NO");
 	return (0);
 }
 */
