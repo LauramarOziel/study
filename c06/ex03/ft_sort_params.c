@@ -37,25 +37,25 @@ void	ft_print_string(char *str)
 
 void	ft_sort_strings(char **argv, int argc)
 {
+	int		e;
 	int		i;
-	int		j;
 	char	*temp;
 
-	i = 1;
-	while (i < argc - 1)
+	e = 1;
+	while (e < argc - 1)
 	{
-		j = 1;
-		while (j < argc - 1)
+		i = 1;
+		while (i < argc - 1)
 		{
-			if (ft_strcmp(argv[j], argv[j + 1]) > 0)
+			if (ft_strcmp(argv[i], argv[i + 1]) > 0)
 			{
-				temp = argv[j];
-				argv[j] = argv[j + 1];
-				argv[j + 1] = temp;
+				temp = argv[i];
+				argv[i] = argv[i + 1];
+				argv[i + 1] = temp;
 			}
-			j++;
+			i++;
 		}
-		i++;
+		e++;
 	}
 }
 
