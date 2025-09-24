@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 09:16:58 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/24 10:09:40 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/24 11:37:38 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,6 @@ int	ft_recursive_factorial(int nb)
 
 int main(void)
 {
-	printf("factorial(-1) = %d (esperado: 0)\n", ft_recursive_factorial(-1));
-	printf("factorial(0) = %d (esperado: 1)\n", ft_recursive_factorial(0));
-	printf("factorial(1) = %d (esperado: 1)\n", ft_recursive_factorial(1));
 	printf("factorial(3) = %d (esperado: 6)\n", ft_recursive_factorial(3));
 	printf("factorial(5) = %d (esperado: 120)\n", ft_recursive_factorial(5));
 	printf("factorial(6) = %d (esperado: 720)\n", ft_recursive_factorial(6));

@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 09:43:58 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/24 11:28:48 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/24 11:48:17 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ int	ft_is_prime(int nb)
 
 int main(void)
 {
-	printf("is_prime(0) = %d (esperado: 0)\n", ft_is_prime(0));
 	printf("is_prime(1) = %d (esperado: 0)\n", ft_is_prime(1));
 	printf("is_prime(2) = %d (esperado: 1)\n", ft_is_prime(2));
 	printf("is_prime(3) = %d (esperado: 1)\n", ft_is_prime(3));

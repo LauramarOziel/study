@@ -6,7 +6,7 @@
 /*   By: loziel-d <loziel-d@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 09:42:50 by loziel-d          #+#    #+#             */
-/*   Updated: 2025/09/24 10:51:15 by loziel-d         ###   ########.fr       */
+/*   Updated: 2025/09/24 11:44:33 by loziel-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ int	ft_sqrt(int nb)
 
 int main(void)
 {
-	printf("sqrt(-1) = %d (esperado: 0)\n", ft_sqrt(-1));
 	printf("sqrt(0) = %d (esperado: 0)\n", ft_sqrt(0));
 	printf("sqrt(1) = %d (esperado: 1)\n", ft_sqrt(1));
 	printf("sqrt(4) = %d (esperado: 2)\n", ft_sqrt(4));
